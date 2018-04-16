@@ -1,7 +1,62 @@
 html {
   background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
 }
 
 header {
   height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav {
+  display: flex;
+  float: right;
+  align-items: center;
+  height: 69px;
+  margin-right: 20px;
+}
+
+a {
+  color: inherit;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-direction: column;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+
+}
+
+.missiontext {
+  background-color: black;
+  position: absolute;
+  top: 300px;
+  width: 1200px;
 }
