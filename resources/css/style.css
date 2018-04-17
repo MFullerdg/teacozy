@@ -51,6 +51,7 @@ a {
   position: relative;
   top: 70px;
   text-align: center;
+  margin: auto;
 
 }
 
@@ -59,4 +60,29 @@ a {
   position: absolute;
   top: 300px;
   width: 1200px;
+}
+
+#featured {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  display: block;
+}
+
+
+.teas {
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
 }
