@@ -44,6 +44,10 @@ a {
   flex-direction: column;
 }
 
+.body {
+  display: flex;
+}
+
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
