@@ -37,17 +37,6 @@ a {
   color: inherit;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  width: 1200px;
-  flex-direction: column;
-}
-
-.body {
-  display: flex;
-}
-
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
@@ -80,9 +69,10 @@ a {
   display: flex;
   position: relative;
   top: 150px;
-  width: 1000px;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  width: 1000px;
 }
 
 .teas img {
