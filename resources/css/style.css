@@ -80,3 +80,24 @@ a {
   width: 300px;
   margin: 10px;
 }
+
+#locations {
+  position: relative;
+  top: 200px;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-image: url("../images/img-locations-background.jpg")
+}
+
+.locbox {
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  z-index: 1;
+}
+
+.locbox h4 {
+  font-weight: normal;
+}
