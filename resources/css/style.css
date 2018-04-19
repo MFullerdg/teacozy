@@ -72,7 +72,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  width: 1000px;
+  width: 1200px;
 }
 
 .teas img {
@@ -83,12 +83,18 @@ a {
 
 #locations {
   position: relative;
+  display: flex;
   top: 200px;
   height: 500px;
   width: 1200px;
   margin: auto;
+  flex-wrap: wrap;
   text-align: center;
   background-image: url("../images/img-locations-background.jpg")
+}
+
+#locations h2 {
+  width:1200px;
 }
 
 .locbox {
@@ -96,8 +102,13 @@ a {
   margin: 15px 20px;
   background-color: black;
   z-index: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .locbox h4 {
   font-weight: normal;
+  margin: 20px;
 }
