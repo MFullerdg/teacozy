@@ -59,7 +59,7 @@ a {
   position: relative;
   top: 150px;
   text-align: center;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
   display: block;
 }
@@ -78,6 +78,14 @@ a {
 .teas img {
   height: 200px;
   width: 300px;
+  margin: 10px;
+}
+
+.teabox {
+  text-align: center;
+}
+
+.teabox h4{
   margin: 10px;
 }
 
@@ -111,4 +119,18 @@ a {
 .locbox h4 {
   font-weight: normal;
   margin: 20px;
+}
+
+.bottominfo {
+  height: 200px;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+.copyright {
+  position: relative;
+  top: 150px;
 }
